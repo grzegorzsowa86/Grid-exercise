@@ -1,0 +1,27 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 1em;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.wrapper div {
+  background-color: white;
+  padding: 1em;
+}
+
+.box1 {
+  align-self: flex-start;
+}
+
+.box2 {
+  align-self: flex-end;
+}
+
+.box3 {
+  justify-self: end;
+}
+
+.box4 {
+  align-self: center;
+}
